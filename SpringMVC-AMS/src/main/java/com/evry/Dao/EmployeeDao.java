@@ -17,9 +17,7 @@ public class EmployeeDao {
 	@Resource(name = "appJdbcTempalte")
 	private JdbcTemplate jdbcTemplate;
 
-	/*******************************
-	 * Add Employee
-	 ***********************************/
+	/******************************** Add Employee ***********************************/
 	public Map<String, Object> addEmployee(Employee employeeData) {
 		// TODO Auto-generated method stub
 		Map<String, Object> map = new HashMap<String, Object>();
